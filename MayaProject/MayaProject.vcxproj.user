@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerEnvironment>Path=$(Path);C:\Program Files (x86)\Intel\Composer XE\redist\ia32\ipp;C:\Program Files (x86)\GnuWin32\bin</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerMergeEnvironment>true</LocalDebuggerMergeEnvironment>
+    <LocalDebuggerCommandArguments>C:\Temp\Skin ThinLines SaveImages</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>"F:\Kang" Circles SaveImages</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerEnvironment>Path=$(Path);C:\Program Files (x86)\Intel\Composer XE\redist\ia32\ipp;C:\Program Files (x86)\GnuWin32\bin</LocalDebuggerEnvironment>
+  </PropertyGroup>
+</Project>
